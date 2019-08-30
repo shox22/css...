@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|News+Cycle&display=swap');
+
+:root{
+    --accent-color:#674da3;
+    --font-color: black;
+     font-family: 'News Cycle', sans-serif;
+     scroll-behavior: smooth;
+}
+body {
+    max-width: 980px;
+    margin: auto;
+
+}
+
+
+header nav .logo {
+    font-family: 'Bree Serif', serif;
+    font-size: 3rem;
+    margin: 1rem 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--accent-color);
+}
+
+header nav .menu {
+    display: flex;
+    padding: 0;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+header nav .menu li a {
+    text-decoration: none;
+    color: var(--font-color);
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding: 3px;
+
+}
+
+header nav .menu li a:hover {
+    border: 1px solid var(--accent-color);
+}
+
+@media (min-width:600px) {
+    header nav {
+        display: flex;
+        align-items: center;
+    }
+    header nav .menu {
+        flex: 1;
+    }
+}
+
+header .banner {
+    background-image: url(../img/shop2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header .banner h1 {
+    font-family: 'Bree Serif', serif;
+    font-size: 3rem;
+    margin: 1rem 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--accent-color);
+}
+main .product img {
+    width: 100%;
+    display: block;
+     font-family: 'Bree Serif', serif;
+      text-decoration: none;
+    color: var(--accent-color);
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding: 3px;
+
+}
+main .product .product-buttons {
+    display: flex;
+    justify-content: space-around;
+}
+@media (min-width: 600px) {
+    main .product-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+
+    }
+
+}
+
+@media (min-width: 900px) {
+    main .product-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 10px;
+    }
+    main .h2 .banner {
+        font-family: 'Bree Serif', serif;
+    font-size: 3rem;
+    margin: 1rem 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: #674da3
+    }
+
+}
+
+
+
+
+
+
+
+
+
+.myButton {
+	-moz-box-shadow: 3px 4px 5px 2px #899599;
+	-webkit-box-shadow: 3px 4px 5px 2px #899599;
+	box-shadow: 3px 4px 5px 2px #899599;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #bab1ba));
+	background:-moz-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+	background:-webkit-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+	background:-o-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+	background:-ms-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+	background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#bab1ba',GradientType=0);
+	background-color:#ededed;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	border:1px solid #ccafcc;
+	display:inline-block;
+	cursor:pointer;
+	color:#3a8a9e;
+	font-family:Verdana;
+	font-size:27px;
+	padding:11px 29px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #e1e2ed;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #bab1ba), color-stop(1, #ededed));
+	background:-moz-linear-gradient(top, #bab1ba 5%, #ededed 100%);
+	background:-webkit-linear-gradient(top, #bab1ba 5%, #ededed 100%);
+	background:-o-linear-gradient(top, #bab1ba 5%, #ededed 100%);
+	background:-ms-linear-gradient(top, #bab1ba 5%, #ededed 100%);
+	background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#bab1ba', endColorstr='#ededed',GradientType=0);
+	background-color:#bab1ba;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+header .myButton {
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+
+
+
+
